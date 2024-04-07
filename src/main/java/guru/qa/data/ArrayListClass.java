@@ -17,8 +17,16 @@ public class ArrayListClass {
     }
 
     public void iterateList() {
-        for (String element : list) {
-            System.out.println(element);
+        for (int i = 0 ; i <= list.size()-1; i++) {
+            System.out.println(list.get(i));
         }
+    }
+
+    public void iterateList2(){
+        int i = 0;
+        do{
+            System.out.println(list.get(i));
+            i++;
+        } while (i < list.size());
     }
 }

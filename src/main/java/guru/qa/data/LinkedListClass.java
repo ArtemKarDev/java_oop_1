@@ -17,8 +17,11 @@ public class LinkedListClass {
     }
 
     public void iterateLinkedList() {
-        for (String element : linkedList) {
-            System.out.println(element);
+        int i = 0;
+        while (i <= linkedList.size()-1){
+            System.out.println(linkedList.get(i));
+            i++;
         }
     }
+
 }

@@ -21,4 +21,5 @@ public class HashSetClass {
             System.out.println(element);
         }
     }
+
 }
