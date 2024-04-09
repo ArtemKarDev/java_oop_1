@@ -1,5 +1,4 @@
 package guru.qa.data;
-import java.sql.SQLOutput;
 import java.util.ArrayDeque;
 
 public class ArrayDequeClass {
