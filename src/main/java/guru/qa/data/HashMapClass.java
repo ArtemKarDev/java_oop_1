@@ -1,6 +1,5 @@
 package guru.qa.data;
 
-import java.util.ArrayDeque;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,8 +24,10 @@ public class HashMapClass {
             String key = entry.getKey();
             String value = entry.getValue();
             System.out.println("Key: " + key + ", Value: " + value);
-        }}
+        }
+
     }
-
-
 }
+
+
+
