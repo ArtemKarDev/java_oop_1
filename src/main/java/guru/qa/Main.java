@@ -1,9 +1,6 @@
 package guru.qa;
 
-import guru.qa.data.ArrayListClass;
-import guru.qa.data.HashSetClass;
-import guru.qa.data.LinkedListClass;
-import guru.qa.data.TreeSetClass;
+import guru.qa.data.*;
 
 public class Main {
 
@@ -30,7 +27,22 @@ public class Main {
         treeSetClass.addElement("January");
         treeSetClass.addElement("February");
         treeSetClass.iterateSet();
+
+        ArrayDequeClass arrayDeque = new ArrayDequeClass();
+        arrayDeque.addElement("Audi");
+        arrayDeque.addElement("BMW");
+        arrayDeque.iterateArray();
+
+        HashMapClass hashMap = new HashMapClass();
+        hashMap.addElement("apple", "red");
+        hashMap.addElement("banana", "yellow");
+        hashMap.addElement("orange", "orange");
+        hashMap.iterateHashMap();
+
     }
+
+
+
 
 }
 
